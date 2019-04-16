@@ -2,7 +2,7 @@
 
 function bio(){
     return    `
-<div class='js-container'>
+<div class='js-containe container'>
     <h1 class="bio_start">Hi i'm Adam Pavlicek</h1>
     <p class="picture_placeholder">MY PICTURE SHOULD GO HERE</p>
     <p Class="bio">
@@ -16,7 +16,7 @@ function bio(){
 }
 function portfolio(){
     return`
-    <div class="js-container">
+    <div class='js-containe container'>
         <div name="Project1">
             <h2>Quizz app Project</h2>
             <p>This is a class project that I worked on with a fellow classmate, Peter</p>
@@ -44,7 +44,7 @@ function portfolio(){
 
 function contact(){
 return `
-<div class="js-container">
+<div class='js-containe container'>
     <h2>Contact Info</h2>
     <ul>
         <li>Email: adamhpavlicek@gmail.com</li>
@@ -55,20 +55,20 @@ return `
 }
 function handleBio(){
     $('header').on('click', '.js-bio', function(){
-        $('.js-container').remove();
+        $('.js-containe').remove();
         $('html').append(bio());
         });
 }
 function handlePortfolio(){
     $('header').on('click', '.js-portfolio', function(){
-        $('.js-container').remove();
+        $('.js-containe').remove();
         $('html').append(portfolio());
     });
 }
 
 function HandleContact(){
     $('header').on('click', '.js-contact', function(){
-        $('.js-container').remove();
+        $('.js-containe').remove();
         $('html').append(contact());
     });
 }
