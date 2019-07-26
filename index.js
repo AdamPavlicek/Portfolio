@@ -36,7 +36,28 @@ function portfolio(){
                 <a class="projectLinks" href="https://github.com/thinkful-ei-cheetah/OOP-quiz-render-adam-peter">GitHubRepo</a>
             </div>
             <div name="project2">
-                <h2>Placeholder</h2>
+                <h2>SquadUp!</h2>
+                <p>SquadUp helps you to connect with all types of gamers across all types of games. From video games to sports games. I helped build SquadUp! with a group of talented classmates. We really wanted to produce a somthing that we believed people would love to use as well as solve the problem of finding people to play with. </p>
+                <h3>Main Dahsboard view</h3>
+                <p>The User is able to browse or search through a list of games as well as chat with squads.</p>
+                <img src="pics/SquadUp/DashBoardWithUpdatedChat.png" alt="squadUp dashboard page">
+                <h3>Game squads list</h3>
+                <p>After choosing a game you can browse through a list of sqauds for that game</p>
+                <img src="pics/SquadUp/DashBoardSquads.png" alt="game squad list">
+                <h3>Create a Squad</h3>
+                <p>You can even create your own squad if you want to</p>
+                <img src="pics/SquadUp/DashBoardMakeSquad.png" alt="create squad form">
+                <h3>technology used</h3>
+                <ul>
+                  <li>React with React hooks</li>
+                  <li>Node.js</li>
+                  <li>express</li>
+                  <li>postgreSQL</li>
+                  <li>socket.io</li>
+                </ul>
+                <h3>Website and Repo</h3>
+                <a class="projectLinks" href="https://squadup.now.sh/">SquadUP!</a>
+                <a class="projectLinks" href="https://github.com/cgillette12/Squad-up-Client">SquadUp Repo</a> 
             </div>
         </div>
     `;
@@ -48,7 +69,8 @@ function contact(){
         <h2>Contact Info</h2>
         <ul>
             <li>Email: adamhpavlicek@gmail.com</li>
-            <li>Github: <a href="https://github.com/AdamPavlicek">AdamPavlicek</a></li>
+            <li><a href="https://github.com/AdamPavlicek">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/adam-pavlicek-3a1a9ab1/">LinkdIn</a></li>
         </ul>
     </div>
 `;

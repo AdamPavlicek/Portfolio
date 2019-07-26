@@ -26,6 +26,7 @@ header {
     font-size: 20px;
     outline: none;
 }
+.navigation:focus,
 .navigation:hover{
     background-color: var(--secondary);
     color: var(--black);
@@ -72,18 +73,24 @@ img{
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 85%;
 }
 h3{
     font-family: 'EB Garamond', serif;
     font-size: 25px;
 }
-.projectLinks{
+/* a:link{
+
+} */
+/* .projectLinks{
     display: inline;
     font-family: 'Roboto', sans-serif;
     color: var(white);
     font-size: 20px;
-}
+} */
 
-@media screen and (max-width: 700px){
-    
-}
+/* @media screen and (max-width: 700px){
+    header {
+        
+    }
+} */
