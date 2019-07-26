@@ -1,43 +1,45 @@
+:root{
+    --primary: #330000;
+    --secondary: #990000;
+    --black: #000000;
+    --white: #ddd;
+}
 body{
-    background-color: #330000;
+    background-color: var(--white);
     font-size: 16px;
 }
 header {
     position: fixed;
     top: 0%;
     left:0%;
-    width: auto;
-    height: 100%;
-    background-color: #4db8ff;
-    border: 1px solid black;
-    color: black;
-}
-.navigation{
-    position: relative;
-    left: 0%;
-    display: block;
-    background-color: #990000;
-    border: 1px solid black;
     width: 100%;
-    color: #ddd;
+    display: flex;
+    background-color: var(--black);
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary);
+    border: 1px solid black;
+    color: var(--white);
     padding: 15px 10px;
-    text-align: left;
-    /* text-decoration: none; */
     font-size: 20px;
+    outline: none;
 }
 .navigation:hover{
-    background-color: #007acc;
-    color: black;
+    background-color: var(--secondary);
+    color: var(--black);
+}
+main{
+    margin-top: 70px;
 }
 .container{
-    position: relative;
-    top:50px;
-    left:10px;
-    right:10px;
-    margin-left: 200px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-evenly;
+    max-width: 700px;
+    margin: auto;
 }
 h1{
     font-family: 'EB Garamond', serif;
@@ -50,6 +52,7 @@ h2{
 }
 p{
     font-family: 'Roboto', sans-serif;
+    color: var(--black);
 }
 .bio{
     text-align: left;
@@ -77,6 +80,10 @@ h3{
 .projectLinks{
     display: inline;
     font-family: 'Roboto', sans-serif;
-    color: #ddd;
+    color: var(white);
     font-size: 20px;
+}
+
+@media screen and (max-width: 700px){
+    
 }
