@@ -70,9 +70,7 @@ li {
 }
 
 img{
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    align-self: center;
     width: 85%;
 }
 h3{
