@@ -77,6 +77,27 @@ h3{
     font-family: 'EB Garamond', serif;
     font-size: 25px;
 }
+.project-buttons{
+    display:flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1px solid var(--secondary);
+}
+.project-button{
+    background-color: var(--primary);
+    color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    padding: 10px 8px;
+    font-size: 20px;
+    margin: 1px;
+}
+.project-button:focus,
+.project-button:hover {
+    background-color: var(--secondary);
+    color: var(--black);
+}
+
 /* a:link{
 
 } */
